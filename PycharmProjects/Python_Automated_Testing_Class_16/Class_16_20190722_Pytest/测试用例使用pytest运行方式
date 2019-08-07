@@ -1,0 +1,12 @@
+有4种运行方式
+1、Terminal里直接输入pytest
+
+2、Terminal里输入python -m pytest
+
+3、在项目根目录建个运行文档，运行以下代码
+import pytest
+
+if __name__ == '__main__':
+    pytest.main()
+
+4、pycharm设置把默认是unittest改为pytest，具体详情百度

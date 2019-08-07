@@ -1,0 +1,10 @@
+2019-05-22 16:07:38,669 - [INFO] - test_minus - case - [日志信息]
+Running Test Method: test_case
+2019-05-22 16:07:38,694 - [INFO] - test_minus - case - [日志信息]
+Running Test Method: test_case
+2019-05-22 16:07:38,715 - [INFO] - test_minus - case - [日志信息]
+Running Test Method: test_case
+2019-05-22 16:07:38,715 - [ERROR] - test_minus - case - [日志信息]具体异常为：-3 != 3 : 测试零与正数相减失败
+2019-05-22 16:07:38,738 - [INFO] - test_minus - case - [日志信息]
+Running Test Method: test_case
+2019-05-22 16:07:38,756 - [INFO] - test_minus - case - [日志信息]=================用例执行结束=================

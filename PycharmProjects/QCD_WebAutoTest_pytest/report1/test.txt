@@ -1,0 +1,11 @@
+. test_1_login.py::TestLogin::test_1_login_error[user_data0]
+. test_1_login.py::TestLogin::test_1_login_error[user_data1]
+. test_1_login.py::TestLogin::test_1_login_error[user_data2]
+. test_1_login.py::TestLogin::test_2_login_error2[user_data0]
+. test_1_login.py::TestLogin::test_2_login_error2[user_data1]
+. test_1_login.py::TestLogin::test_3_login_success
+. test_2_bid.py::TestBid::test_1_bid_fail[bid_data0]
+. test_2_bid.py::TestBid::test_1_bid_fail[bid_data1]
+. test_2_bid.py::TestBid::test_2_bid_fail2
+. test_2_bid.py::TestBid::test_3_bid_success[bid_data0]
+. test_2_bid.py::TestBid::test_3_bid_success[bid_data1]

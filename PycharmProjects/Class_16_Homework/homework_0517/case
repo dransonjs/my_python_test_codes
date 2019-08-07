@@ -1,0 +1,4 @@
+2019-05-21 14:30:43,668 - [INFO] - lemon_0517_01_homework_2 - case - [日志信息]这是info日志
+2019-05-21 14:30:43,672 - [WARNING] - lemon_0517_01_homework_2 - case - [日志信息]这是warning日志
+2019-05-21 14:30:43,672 - [ERROR] - lemon_0517_01_homework_2 - case - [日志信息]这是error日志
+2019-05-21 14:30:43,672 - [CRITICAL] - lemon_0517_01_homework_2 - case - [日志信息]这是critical日志

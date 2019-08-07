@@ -1,0 +1,14 @@
+. test_math.py::test_1_add
+F test_math.py::TestMinus::test_4_minus
+ self = <test_math.TestMinus object at 0x0000017647260B70>
+ 
+     def test_4_minus(self):
+ >       assert minus(1, 2) == 1, '减法测试不通过'
+ E       AssertionError: 减法测试不通过
+ E       assert -1 == 1
+ E        +  where -1 = minus(1, 2)
+ 
+ test_math.py:42: AssertionError
+. test_math.py::TestMinus::test_2_divide
+s test_math.py::test_3_multiple
+ Skipped: 不想执行这条用例

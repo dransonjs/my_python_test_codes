@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<body>
+    <h1>用户填写注册信息</h1>
+    用户名：<input name="register" id="username"><br/>
+    密码：<input type="password" name="register" id="pwd"><br/>
+<!--readonly和disabled的区别在于：
+    1、readonly只对input（text/password）和textarea有效，而disabled对所有表单元素都有效
+    2、readonly的数据可以被form传输，disabled的数据则不可以-->
+    <textarea readonly>我是会员</textarea>
+    <p>
+<!--name的作用是让单选或多选做的是同一个题目，id的作用是方便定位元素，value的作用是让单选或多选的内容可以被form传输，没有value则无法被传输-->
+        最喜欢的电影：
+<!--checked表示默认选中-->
+        <input type="radio" name="film" id="gsl" value="哥斯拉" checked>哥斯拉
+        <input type="radio" name="film" id="fcz" value="复仇者联盟">复仇者联盟
+        <input type="radio" name="film" id="sd" value="扫毒">扫毒
+        <input type="radio" name="film" id="yw" value="叶问" disabled>叶问
+    </p>
+    上传个人资料文件：<input type="file">
+
+    <script>
+        var a = 5;
+        function b() {
+            if (a > 8) {
+                console.log(a+8);
+                return a+8
+            }
+            else if (a < 4){
+                console.log(a-4);
+                return a-4
+            }
+            else{
+                console.log(a);
+                return a
+            }
+        }
+        b()
+    </script>
+</body>
+</html>

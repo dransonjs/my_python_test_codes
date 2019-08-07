@@ -1,0 +1,12 @@
+2019-06-12 11:42:43,667 - [ERROR] - test_05_invest - case - [日志信息]具体异常为：'{"status":0,"code":"11011","data":null,"msg":"该标已经满标,无法进行投资"}' != '{"status":1,"code":"10001","data":null,"msg":"竞标成功"}'
+- {"status":0,"code":"11011","data":null,"msg":"该标已经满标,无法进行投资"}
+?           ^          - ^                      ^ ^^^^^^^^^^^
++ {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+?           ^           ^^                      ^ ^^
+ : 测试投资成功失败 - [test_05_invest.py:78 ]
+2019-06-12 11:42:43,718 - [INFO] - test_05_invest - case - [日志信息]
+Running Test Method: test_case - [test_05_invest.py:57 ]
+2019-06-12 11:42:43,729 - [ERROR] - test_05_invest - case - [日志信息]具体异常为：'{"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}' != '{"status":1,"code":"10001","data":null,"msg":"竞标成功"}'
+- {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
++ {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+ : 测试投资成功失败 - [test_05_invest.py:78 ]

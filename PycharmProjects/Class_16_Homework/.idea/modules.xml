@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Class_16_Homework.iml" filepath="$PROJECT_DIR$/.idea/Class_16_Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Homework_Class_16.iml" filepath="$PROJECT_DIR$/.idea/Homework_Class_16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Automated_Testing_Class_16/.idea/Python_Automated_Testing_Class_16.iml" filepath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/.idea/Python_Automated_Testing_Class_16.iml" />
+    </modules>
+  </component>
+</project>

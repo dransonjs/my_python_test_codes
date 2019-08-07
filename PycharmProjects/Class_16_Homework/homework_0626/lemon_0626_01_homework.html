@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<body>
+    <form>
+        <h1>用户填写注册信息</h1>
+        用户名：<input name="register" id="username"><br/>
+        密码：<input type="password" name="register" id="pwd"><br/>
+        <p>
+    <!--name的作用是让单选或多选做的是同一个题目，id的作用是方便定位元素，value的作用是让单选或多选的内容可以被form传输，没有value则无法被传输-->
+            最喜欢的电影：
+    <!--checked表示默认选中-->
+            <select name="film" id="film">
+                <option>哥斯拉</option>
+                <option>复仇者联盟</option>
+                <option>扫毒</option>
+            </select>
+        </p>
+        上传个人资料文件：<input type="file">
+        <p onclick="submit()">提交</p>
+    </form>
+    <script>
+        function submit() {
+            var a = document.getElementById('username');
+            var b = document.getElementsByName('film');
+            console.log(a.value);
+            console.log(b[0].value)
+        }
+    </script>
+</body>
+</html>

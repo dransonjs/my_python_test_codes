@@ -1,0 +1,8 @@
+2019-05-20 16:04:39,623 - [INFO] - lemon_02_log_update - case - 52 - [日志信息]:这是info日志
+2019-05-20 16:04:39,627 - [WARNING] - lemon_02_log_update - case - 53 - [日志信息]:这是warning日志
+2019-05-20 16:04:39,627 - [ERROR] - lemon_02_log_update - case - 54 - [日志信息]:这是error日志
+2019-05-20 16:04:39,627 - [CRITICAL] - lemon_02_log_update - case - 55 - [日志信息]:这是critical日志
+2019-05-20 16:04:39,927 - [INFO] - lemon_02_log_update - case - 52 - [日志信息]:这是info日志
+2019-05-20 16:04:39,927 - [WARNING] - lemon_02_log_update - case - 53 - [日志信息]:这是warning日志
+2019-05-20 16:04:39,927 - [ERROR] - lemon_02_log_update - case - 54 - [日志信息]:这是error日志
+2019-05-20 16:04:39,929 - [CRITICAL] - lemon_02_log_update - case - 55 - [日志信息]:这是critical日志

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skipped="1" tests="4" time="0.097"><testcase classname="test_math" file="test_math.py" line="24" name="test_1_add" time="0.001"></testcase><testcase classname="test_math.TestMinus" file="test_math.py" line="40" name="test_4_minus" time="0.001"><failure message="AssertionError: 减法测试不通过
+assert -1 == 1
+ +  where -1 = minus(1, 2)">self = &lt;test_math.TestMinus object at 0x0000017647260B70&gt;
+
+    def test_4_minus(self):
+&gt;       assert minus(1, 2) == 1, &apos;减法测试不通过&apos;
+E       AssertionError: 减法测试不通过
+E       assert -1 == 1
+E        +  where -1 = minus(1, 2)
+
+test_math.py:42: AssertionError</failure></testcase><testcase classname="test_math.TestMinus" file="test_math.py" line="43" name="test_2_divide" time="0.000"></testcase><testcase classname="test_math" file="test_math.py" line="49" name="test_3_multiple" time="0.000"><skipped message="不想执行这条用例" type="pytest.skip">test_math.py:49: 不想执行这条用例</skipped></testcase></testsuite>
