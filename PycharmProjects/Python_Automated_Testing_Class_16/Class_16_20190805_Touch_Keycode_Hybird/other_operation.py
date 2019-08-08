@@ -1,4 +1,5 @@
 from appium import webdriver
+import time
 
 desired_caps = {
     "automationName": "UiAutomator1",  # 自动化测试框架
@@ -13,4 +14,19 @@ desired_caps = {
 
 # 注意端口号是否正确
 driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
+time.sleep(2)
 
+# 隐藏键盘
+driver.hide_keyboard()
+
+# 摇一摇
+driver.shake()
+
+# 锁屏
+driver.lock()
+
+# 解锁
+driver.unlock()
+
+# 截屏
+# driver.get_screenshot_as_file()
