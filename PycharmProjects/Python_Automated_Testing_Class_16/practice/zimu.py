@@ -4,17 +4,19 @@ class Zimu:
 
     def appear_count(self):
         dict1 = {}
-        str1 = ""
-        for i in range(len(self.string)):
-            count = 0
-            for j in range(len(self.string)-i):
-                if self.string[i] == self.string[j+i+1]:
+        for i in self.string[:len(self.string)-1]:  # 例abcda，只取到d
+            count = 1
+            for j in self.string[self.string.index(i)+1:]:  # 每一次遍历判断都在i的后一位开始
+                if i == j:
                     count += 1
-                str1 = self.string[i]
-            dict1.update({str1: count})
+            dict1.update({i: count})
         return dict1
+
+    def sort(self):
+        return sorted(self.appear_count().items(), key=lambda x: x[1], reverse=True)
 
 
 if __name__ == '__main__':
-    zimu = Zimu("abcba")
-    zimu.appear_count()
+    zimu = Zimu("abcdeabacfdec")
+    print(zimu.appear_count())
+    print(zimu.sort())
