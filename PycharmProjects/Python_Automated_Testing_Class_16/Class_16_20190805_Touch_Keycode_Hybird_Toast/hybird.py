@@ -25,8 +25,13 @@ print(driver.contexts)  # 所有上下文，相当于web的window_handles
 
 # 这里的context输入时没有提示，切换到WEBVIEW
 driver.switch_to.context("WEBVIEW_com.android.browser")  # 混合应用（原生app里有web）的web几乎都是以WEBVIEW开头
+time.sleep(2)
 
 # 切换回原生应用
 # driver.switch_to.context(None) 或 driver.switch_to.context("NATIVE_APP")
+
+# 用uc-tools定位，前提adb要连接设备，开发者模式，真机要root
+input_e = driver.find_element_by_id("index-kw")
+print(input_e)
 
 driver.quit()

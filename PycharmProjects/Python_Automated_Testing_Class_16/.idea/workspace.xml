@@ -11,19 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/press_keycode.py">
+        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/hybird.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/hybird.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="437">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -32,42 +23,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/zimu.py">
+        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/sort1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/other_operation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="646">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/gesture_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +88,8 @@
         <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Action/hybird.py" />
         <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/hybird.py" />
         <option value="$PROJECT_DIR$/practice/zimu.py" />
+        <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/hybird.py" />
+        <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py" />
       </list>
     </option>
   </component>
@@ -152,7 +115,12 @@
             <path>
               <item name="Python_Automated_Testing_Class_16" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Automated_Testing_Class_16" type="462c0819:PsiDirectoryNode" />
-              <item name="Class_16_20190805_Touch_Keycode_Hybird" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_16_20190802_App_Find_Element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automated_Testing_Class_16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automated_Testing_Class_16" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_16_20190805_Touch_Keycode_Hybird_Toast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_Automated_Testing_Class_16" type="b2602c69:ProjectViewProjectNode" />
@@ -197,8 +165,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zimu">
-    <configuration name="gesture_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.hybird (1)">
+    <configuration name="hybird (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class_16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,12 +174,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190805_Touch_Action/gesture_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/hybird.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,28 +210,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="press_keycode" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Automated_Testing_Class_16" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190805_Touch_Action/press_keycode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sort1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class_16" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,6 +224,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/sort1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="toast" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Automated_Testing_Class_16" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +277,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.gesture_code" />
-      <item itemvalue="Python.press_keycode" />
       <item itemvalue="Python.hybird" />
       <item itemvalue="Python.zimu" />
       <item itemvalue="Python.sort1" />
+      <item itemvalue="Python.toast" />
+      <item itemvalue="Python.hybird (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hybird (1)" />
+        <item itemvalue="Python.toast" />
         <item itemvalue="Python.zimu" />
         <item itemvalue="Python.sort1" />
         <item itemvalue="Python.hybird" />
-        <item itemvalue="Python.press_keycode" />
-        <item itemvalue="Python.gesture_code" />
       </list>
     </recent_temporary>
   </component>
@@ -337,16 +305,17 @@
       <updated>1552912351394</updated>
       <workItem from="1565231365717" duration="14857000" />
       <workItem from="1565268956875" duration="5280000" />
+      <workItem from="1565331198678" duration="7400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20137000" />
+    <option name="totallyTimeSpent" value="27537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,11 +355,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$press_keycode.coverage" NAME="press_keycode Coverage Results" MODIFIED="1565247747482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$hybird.coverage" NAME="hybird Coverage Results" MODIFIED="1565250915601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$hybird__1_.coverage" NAME="hybird (1) Coverage Results" MODIFIED="1565342972472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$gesture_code.coverage" NAME="gesture_code Coverage Results" MODIFIED="1565247731636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$zimu.coverage" NAME="zimu Coverage Results" MODIFIED="1565272405325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$sort1.coverage" NAME="sort1 Coverage Results" MODIFIED="1565271256043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$gesture_code.coverage" NAME="gesture_code Coverage Results" MODIFIED="1565247731636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$toast.coverage" NAME="toast Coverage Results" MODIFIED="1565336907795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$press_keycode.coverage" NAME="press_keycode Coverage Results" MODIFIED="1565247747482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Class_16_20190318_PythonBase/lemon_01_first_program.py">
@@ -541,26 +512,39 @@
     </entry>
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/appium/webdriver/common/touch_action.py" />
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/appium/webdriver/extensions/keyboard.py" />
-    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/press_keycode.py">
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1229051315/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/practice/zimu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/hybird.py">
+    <entry file="file://$PROJECT_DIR$/practice/sort1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/driver_attribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/find_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/other_operation.py">
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/other_operation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="399">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -568,34 +552,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/gesture_code.py">
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/gesture_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/press_keycode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="21" selection-end-column="13" />
+          <caret selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/hybird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/sort1.py">
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1229051315/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="529" column="8" selection-start-line="529" selection-start-column="8" selection-end-line="529" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/zimu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="646">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
