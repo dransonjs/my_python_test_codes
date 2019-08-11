@@ -8,6 +8,7 @@ from appium.webdriver import Remote
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from appium.webdriver.common.touch_action import TouchAction
 
 
 class BasePage:
@@ -67,3 +68,26 @@ class BasePage:
 
     def get_toast(self, tip):
         self.wait_presence_element((MobileBy.XPATH, f"//*[contains(@text, {tip})]"))
+
+    def set_gesture_code(self, gesture_e: WebElement, set_points):
+        rect = gesture_e.rect
+        width = rect.get("width")
+        height = rect.get("height")
+        start_x = rect.get("x")
+        start_y = rect.get("y")
+
+        points = [{"x": start_x + width / 6, "y": start_y + height / 6},
+                  {"x": start_x + width / 2, "y": start_y + height / 6},
+                  {"x": start_x + width / 6 * 5, "y": start_y + height / 6},
+                  {"x": start_x + width / 6, "y": start_y + height / 2},
+                  {"x": start_x + width / 2, "y": start_y + height / 2},
+                  {"x": start_x + width / 6 * 5, "y": start_y + height / 2},
+                  {"x": start_x + width / 6, "y": start_y + height / 6 * 5},
+                  {"x": start_x + width / 2, "y": start_y + height / 6 * 5},
+                  {"x": start_x + width / 6 * 5, "y": start_y + height / 6 * 5}]
+
+        touch_action = TouchAction(self.driver)
+        touch_action.press(**points[set_points[0] - 1]).wait(500)
+        for point in set_points[1:]:
+            touch_action.move_to(**points[point-1]).wait(500)
+        touch_action.release().perform()

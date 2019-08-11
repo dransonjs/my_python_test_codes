@@ -29,10 +29,12 @@ login_btn_e = wait_presence_element(driver, (MobileBy.ID, "com.lemon.lemonban:id
 login_btn_e.click()
 
 # 定位toast，用xpath文本匹配的方式较为方便
-# 前提：1、自动化测试框架必须改为UiAutomator2而不是1
+# 前提：
+# 1、自动化测试框架必须改为UiAutomator2而不是1
 # 2、安卓版本5.0以上
 # 3、appium客户端版本1.6.3以上
 # 4、jdk版本1.8.64以上
+# 5、EC条件必须要用presence，不能用visibility
 toast_e = wait_presence_element(driver, (MobileBy.XPATH, "//*[contains(@text, '手机号码或密码不能为空')]"))
 print(toast_e)
 
