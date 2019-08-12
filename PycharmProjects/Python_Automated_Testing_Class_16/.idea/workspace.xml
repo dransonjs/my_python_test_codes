@@ -10,14 +10,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="589">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/swipe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Class_16_20190809_Yaml/do_yaml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class_16_20190809_Yaml/demo.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -78,14 +108,17 @@
         <option value="$PROJECT_DIR$/practice/zimu.py" />
         <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/hybird.py" />
         <option value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py" />
+        <option value="$PROJECT_DIR$/Class_16_20190802_App_Find_Element/swipe.py" />
+        <option value="$PROJECT_DIR$/Class_16_20190809_Yaml/demo.yml" />
+        <option value="$PROJECT_DIR$/Class_16_20190809_Yaml/do_yaml.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="18" />
-    <option name="y" value="26" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="408" />
+    <option name="y" value="63" />
     <option name="width" value="1400" />
-    <option name="height" value="888" />
+    <option name="height" value="891" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,7 +136,7 @@
             <path>
               <item name="Python_Automated_Testing_Class_16" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Automated_Testing_Class_16" type="462c0819:PsiDirectoryNode" />
-              <item name="Class_16_20190805_Touch_Keycode_Hybird_Toast" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_16_20190809_Yaml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,7 +149,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/PycharmProjects/Python_Automated_Testing_Class_16/Class_16_20190320_Python_Str/lemon_01_zodiac_animals.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QCD_WebAutoTest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyDebuggerOptionsProvider">
@@ -143,7 +176,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hybird (1)">
+  <component name="RunManager" selected="Python.do_yaml">
+    <configuration name="do_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Automated_Testing_Class_16" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190809_Yaml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190809_Yaml/do_yaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hybird (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class_16" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hybird" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="swipe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class_16" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,34 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_16_20190802_App_Find_Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird/hybird.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sort1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Automated_Testing_Class_16" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/sort1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_16_20190802_App_Find_Element/swipe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hybird" />
       <item itemvalue="Python.zimu" />
-      <item itemvalue="Python.sort1" />
       <item itemvalue="Python.toast" />
       <item itemvalue="Python.hybird (1)" />
+      <item itemvalue="Python.swipe" />
+      <item itemvalue="Python.do_yaml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.do_yaml" />
+        <item itemvalue="Python.swipe" />
         <item itemvalue="Python.hybird (1)" />
         <item itemvalue="Python.toast" />
         <item itemvalue="Python.zimu" />
-        <item itemvalue="Python.sort1" />
-        <item itemvalue="Python.hybird" />
       </list>
     </recent_temporary>
   </component>
@@ -286,22 +319,23 @@
       <workItem from="1565331198678" duration="7400000" />
       <workItem from="1565414225619" duration="2119000" />
       <workItem from="1565430037156" duration="2647000" />
+      <workItem from="1565577895135" duration="7458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32303000" />
+    <option name="totallyTimeSpent" value="39761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="26" width="1400" height="888" extended-state="1" />
+    <frame x="408" y="63" width="1400" height="891" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23432836" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2380597" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3340564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.331572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3981358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,22 +370,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$press_keycode.coverage" NAME="press_keycode Coverage Results" MODIFIED="1565247747482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$hybird.coverage" NAME="hybird Coverage Results" MODIFIED="1565250915601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird" />
-    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$zimu.coverage" NAME="zimu Coverage Results" MODIFIED="1565272405325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$hybird__1_.coverage" NAME="hybird (1) Coverage Results" MODIFIED="1565342972472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$gesture_code.coverage" NAME="gesture_code Coverage Results" MODIFIED="1565247731636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$zimu.coverage" NAME="zimu Coverage Results" MODIFIED="1565272405325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$sort1.coverage" NAME="sort1 Coverage Results" MODIFIED="1565271256043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$toast.coverage" NAME="toast Coverage Results" MODIFIED="1565336907795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast" />
-    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$gesture_code.coverage" NAME="gesture_code Coverage Results" MODIFIED="1565247731636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$press_keycode.coverage" NAME="press_keycode Coverage Results" MODIFIED="1565247747482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190805_Touch_Action" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$do_yaml.coverage" NAME="do_yaml Coverage Results" MODIFIED="1565598579811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190809_Yaml" />
+    <SUITE FILE_PATH="coverage/Python_Automated_Testing_Class_16$swipe.coverage" NAME="swipe Coverage Results" MODIFIED="1565579349292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class_16_20190802_App_Find_Element" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Class_16_20190318_PythonBase/lemon_01_first_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class_16_20190318_PythonBase/lemon_02_code_comment_single_line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -513,16 +542,6 @@
         <state relative-caret-position="-114" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/find_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/other_operation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -557,23 +576,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/swipe.py">
+    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="589">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/find_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_16_20190805_Touch_Keycode_Hybird_Toast/toast.py">
+    <entry file="file://$PROJECT_DIR$/Class_16_20190802_App_Find_Element/swipe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="76">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190809_Yaml/demo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_16_20190809_Yaml/do_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
