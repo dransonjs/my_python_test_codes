@@ -13,6 +13,8 @@ from appium.webdriver.common.touch_action import TouchAction
 
 class BasePage:
 
+    me_locator = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text(\"我\")')
+
     def __init__(self, driver: Remote):
         self.driver = driver
 
@@ -27,6 +29,10 @@ class BasePage:
     def wait_presence_element(self, locator, timeout=10, poll=0.5) -> WebElement:
         wait = WebDriverWait(self.driver, timeout, poll)
         return wait.until(EC.presence_of_element_located(locator))
+
+    def wait_visibility_element(self, locator, timeout=10, poll=0.5) -> WebElement:
+        wait = WebDriverWait(self.driver, timeout, poll)
+        return wait.until(EC.visibility_of_element_located(locator))
 
     def screen_shot(self):
         current_time_str = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
@@ -91,3 +97,6 @@ class BasePage:
         for point in set_points[1:]:
             touch_action.move_to(**points[point-1]).wait(500)
         touch_action.release().perform()
+
+    def me(self):
+        self.wait_visibility_element(self.me_locator).click()
