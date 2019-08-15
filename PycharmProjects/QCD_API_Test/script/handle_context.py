@@ -7,7 +7,7 @@ from script.constant import CONFIG_DIR
 
 class Context:
     """
-    实现用例手机号参数化
+    实现用例数据参数化
     """
     not_existed_tel_pattern = re.compile(r'\$\{not_existed_tel\}')
     existed_tel_pattern = re.compile(r'\$\{existed_tel\}')
