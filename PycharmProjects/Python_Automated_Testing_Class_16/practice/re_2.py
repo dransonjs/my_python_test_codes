@@ -20,7 +20,7 @@ import re
 # str3 = "KeYou  is handsome!"
 # 通过\s匹配单个空白字符，即空格
 # result = re.match(r"KeYou\s+is\shandsom", str3)
-#
+
 # if result:
 #     print(result.group())
 # else:
