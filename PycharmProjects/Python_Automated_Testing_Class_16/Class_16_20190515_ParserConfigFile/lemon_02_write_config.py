@@ -24,5 +24,5 @@ for key in datas:
     config[key] = datas[key]
 
 # 保存到文件
-with open('write_config.conf', 'w') as file:
+with open('write_config.ini', 'w') as file:
     config.write(file)
