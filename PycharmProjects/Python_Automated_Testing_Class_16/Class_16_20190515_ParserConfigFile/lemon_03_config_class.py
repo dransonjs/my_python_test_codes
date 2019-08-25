@@ -16,7 +16,7 @@ class HandleConfig(ConfigParser):
     def __init__(self):  # 对父类构造方法进行拓展
         # 调用父类的构造方法
         super().__init__()
-        self.filename = 'testcase.ini'
+        self.filename = 'write_config.ini'
         self.read(self.filename, encoding='utf8')  # 读取配置文件
 
     def __call__(self, section='DEFAULT', option=None, is_eval=False, is_bool=False):
@@ -58,6 +58,6 @@ if __name__ == '__main__':
     config = HandleConfig()
     print(config())
     print(config('excel'))
-    print(config('excel', 'two_res'))
-    print(config('excel', 'two_res', is_bool=True))
-    print(config('excel', 'five_res', is_eval=True))
+    print(config('excel', 'test1'))
+    print(config('excel', 'test_bool', is_bool=True))
+    print(config('excel', 'test_eval', is_eval=True))
