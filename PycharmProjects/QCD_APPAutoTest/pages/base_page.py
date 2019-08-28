@@ -10,6 +10,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction
 
+from file_path import IMG_PATH
+
 
 class BasePage:
 
