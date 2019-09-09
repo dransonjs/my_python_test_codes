@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30609fad-390b-493e-953f-92e610735fc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/practice/fib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/practice/verification_code/distinguish.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/practice/verification_code/distinguish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Automated_Testing_Class_16/practice/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,6 +367,7 @@
       <workItem from="1567477423818" duration="2614000" />
       <workItem from="1567669440817" duration="437000" />
       <workItem from="1567950354404" duration="615000" />
+      <workItem from="1568033532405" duration="612000" />
     </task>
     <servers />
   </component>
@@ -401,12 +404,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113705000" />
+    <option name="totallyTimeSpent" value="114317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
